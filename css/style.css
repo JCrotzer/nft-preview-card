@@ -58,43 +58,6 @@ html, body {
     border-radius: 10px;
 }
 
-/* .die {
-    width: 240px;
-    height: 100%;
-    border-radius: 10px;
-    margin-top: 10px; 
-} */
-
-/* .pop-up {
-    display: none;
-    width: 45px;
-    height: 45px; 
-} */
-
-/* .image-link:hover {
-    background-color:hsl(178, 100%, 50%);
-    width: 240px;
-    height: 240px;
-    border-radius: 10px;
-    margin-top: 10px;
-} */
-
-/* .image-link:hover .die {
-    opacity: 0.5;
-} */
-
-/* .image-link:hover .pop-up {
-    display: block;
-    position: absolute;
-    left: 43%;
-    top: 40%;
-} */
-
-/* .card-image {
-    position: relative;
-    background-color: hsl(178, 100%, 50%);
-} */
-
 h1 {
     color: white;
     font-size: 24px;
