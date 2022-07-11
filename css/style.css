@@ -16,12 +16,12 @@ html, body {
 }
 
 .container {
-    width: 280px;
-    height: 470px;
+    width: 300px;
+    height: 560px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     text-align:start;
     background-color:hsl(216, 50%, 16%);
@@ -30,19 +30,20 @@ html, body {
 /* ITEM IMAGE */
 
 .card-image {
-    width: 240px;
-    height: 240px;
+    width: 260px;
+    height: 260px;
     background-image: url('../images/image-equilibrium.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .card-image a {
-    width: 240px;
-    height: 240px;
+    width: 260px;
+    height: 260px;
     border-radius: 10px;
 }
 
@@ -53,14 +54,15 @@ html, body {
     background-size: small;
     background-position: center;
     opacity: 0.6;
-    width: 240px;
-    height: 240px;
+    width: 260px;
+    height: 260px;
     border-radius: 10px;
 }
 
 h1 {
     color: white;
     font-size: 24px;
+    margin-top: -20px;
 }
 
 h1:hover {
@@ -75,7 +77,7 @@ span:hover {
     font-size: 15px;
     color: hsl(215, 51%, 70%);
     font-weight: 300;
-    margin-top: -10px;
+    margin-top: 10px;
 }
 
 .content {
@@ -87,7 +89,7 @@ span:hover {
 .amount {
     display: flex;
     justify-content: space-between;
-    margin-top: -10px;
+    margin-top: 10px;
 }
 
 .cost {
@@ -103,7 +105,7 @@ span:hover {
 
 hr {
     width: 250px;
-    margin-top:-10px;
+    margin-top: -20px;
     border: 1px solid hsl(215, 32%, 27%);
 }
 
