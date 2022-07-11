@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&display=swap');
 
+/* BASE */
+
 html, body {
     padding: 0;
     margin: 0;
@@ -10,6 +12,7 @@ html, body {
     align-items: center;
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
 }
 
 .container {
@@ -21,19 +24,88 @@ html, body {
     justify-content: space-evenly;
     align-items: center;
     text-align:start;
-    background-color:hsl(216, 50%, 16%); 
+    background-color:hsl(216, 50%, 16%);
 }
 
-.die {
+/* ITEM IMAGE */
+
+.card-image {
+    width: 240px;
+    height: 240px;
+    background-image: url('../images/image-equilibrium.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+.card-image a {
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.card-image a:hover {
+    background-color:hsl(178, 100%, 50%);
+    background-image: url('../images/icon-view.svg');
+    background-repeat: no-repeat;
+    background-size: small;
+    background-position: center;
+    opacity: 0.6;
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+/* .die {
+    width: 240px;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 10px; 
+} */
+
+/* .pop-up {
+    display: none;
+    width: 45px;
+    height: 45px; 
+} */
+
+/* .image-link:hover {
+    background-color:hsl(178, 100%, 50%);
     width: 240px;
     height: 240px;
     border-radius: 10px;
     margin-top: 10px;
-}
+} */
+
+/* .image-link:hover .die {
+    opacity: 0.5;
+} */
+
+/* .image-link:hover .pop-up {
+    display: block;
+    position: absolute;
+    left: 43%;
+    top: 40%;
+} */
+
+/* .card-image {
+    position: relative;
+    background-color: hsl(178, 100%, 50%);
+} */
 
 h1 {
     color: white;
     font-size: 24px;
+}
+
+h1:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+span:hover {
+    color:hsl(178, 100%, 50%);
 }
 
 .description {
@@ -81,6 +153,7 @@ footer {
     width: 35px;
     height: 35px;
     border-radius: 50%;
+    border: 1px solid white;
 }
 
 .profile {
