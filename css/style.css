@@ -16,7 +16,7 @@ html, body {
 }
 
 .container {
-    width: 300px;
+    width: 320px;
     height: 580px;
     border-radius: 10px;
     display: flex;
@@ -30,8 +30,8 @@ html, body {
 /* ITEM IMAGE */
 
 .card-image {
-    width: 260px;
-    height: 260px;
+    width: 280px;
+    height: 280px;
     background-image: url('../images/image-equilibrium.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -42,8 +42,8 @@ html, body {
 }
 
 .card-image a {
-    width: 260px;
-    height: 260px;
+    width: 280px;
+    height: 280px;
     border-radius: 10px;
 }
 
@@ -54,8 +54,8 @@ html, body {
     background-size: small;
     background-position: center;
     opacity: 0.6;
-    width: 260px;
-    height: 260px;
+    width: 280px;
+    height: 280px;
     border-radius: 10px;
 }
 
