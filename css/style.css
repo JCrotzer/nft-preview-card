@@ -17,7 +17,7 @@ html, body {
 
 .container {
     width: 280px;
-    height: 600px;
+    height: 470px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
